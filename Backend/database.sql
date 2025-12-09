@@ -69,8 +69,8 @@ INSERT INTO servico (nome, descricao, cod) VALUES ('Impressão', 'Impressão de 
 INSERT INTO servico (nome, descricao, cod) VALUES ('Banner', 'Criação de um banner personalizado', 'banner');
 INSERT INTO servico (nome, descricao, cod) VALUES ('Empréstimo de Equipamentos', 'Pedido para o empréstimo de equipamentos', 'emprestimo');
 
-INSERT INTO ordem (nome, descricao, id_usuario, id_servico) VALUES ('Impressão de A4', 'Pedido de impressão de 30 folhas A4', 2, 1);
-INSERT INTO ordem (nome, descricao, id_usuario, id_servico) VALUES ('Criação de Banner', 'Pedido para a criação de um banner personalizado', 3, 2);
+INSERT INTO ordem (nome, descricao, id_usuario, id_servico, estado) VALUES ('Impressão de A4', 'Pedido de impressão de 30 folhas A4', 2, 1, 'Em espera');
+INSERT INTO ordem (nome, descricao, id_usuario, id_servico, estado) VALUES ('Criação de Banner', 'Pedido para a criação de um banner personalizado', 3, 2, 'Em espera');
 
 INSERT INTO permissao (id, descricao) VALUES (1, 'VISUALIZAR_USUARIOS');
 INSERT INTO permissao (id, descricao) VALUES (2, 'VISUALIZAR_SERVIÇOS');
